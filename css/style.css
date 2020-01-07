@@ -45,6 +45,7 @@ COMMON
 a {
   text-decoration: none;
 }
+
 html {
   height: 100%;
   width: 100%;
@@ -55,11 +56,14 @@ html {
   font-size: 62.5%;
 }
 
-
 body{
   font-size:1.6rem;/* 16px*/
 }
 
+section {
+  margin-top : -50px;
+  padding-top : 50px;
+}
 
 /*
 ------------------------------------------------
@@ -91,12 +95,15 @@ TOP
   background-color: #327D58;
   padding-bottom: 2.5rem;
 }
+
 .top img {
   width: 100%;
 }
+
 .top-col {
   padding: 0 50px
 }
+
 .top-vision, .top-title, .top-subtitle, .top-shop {
   margin-top: 3rem;
 }
@@ -140,15 +147,19 @@ SERVICE
   font-size: 1.4em;
   margin: 2em auto;
 }
+
 .s-0 {
   background: #E2ECBA;
 }
+
 .s-1 {
   background: #CDE8E9;
 }
+
 .s-2 {
   background: #CEE7D7;
 }
+
 .s-0, .s-1, .s-2 {
   padding:.5rem .5rem;
   margin-bottom: 6.5em;
@@ -164,6 +175,7 @@ service-message
   font-weight: bold !important;
   margin-bottom: 3rem;
 }
+
 .de{
   background: #CDD866;
 }
@@ -175,6 +187,7 @@ service-message
 .wr {
   background: #00803D;
 }
+
 .de, .co, .wr {
   border-radius: 60px;
   padding: 1rem;
@@ -184,7 +197,6 @@ service-message
 .service-message {
   padding-top: 2rem;
   padding-bottom: 3rem;
-
 }
 
 .service-btn a {
@@ -192,6 +204,7 @@ service-message
   margin-bottom: 6.5rem;
   text-decoration: none !important;
 }
+
 .btn-square-shadow {
   display: inline-block;
   padding: 0.5em 1em;
@@ -201,6 +214,7 @@ service-message
   border-bottom: solid 4px #CFA901;
   border-radius: 3px;
 }
+
 .btn-square-shadow:active {
   /*ボタンを押したとき*/
   -webkit-transform: translateY(4px);
@@ -228,6 +242,7 @@ About us
  background-color: #e8ddbd;
  box-shadow: inset 0 0 40px rgba(204, 186, 136,1), 0 2px 2px #ccc;
 }
+
 .title-tape3 {
  position: absolute;
  top: -15px;
@@ -331,35 +346,43 @@ table {
   padding: 0;
   width: 90%;
 }
+
 table tr {
   /* background-color: #fff; */
   background-color:rgba(255, 255, 255, 0.5);
   border-bottom: 2px solid #fff;
 }
+
 table tr:nth-child(even){
   background-color: #eee;
 }
+
 table th,
 table td {
   padding: .35em 1em;
 }
+
 table thead th {
     font-size: 1em;
     padding: 1em;
 }
+
 table thead tr{
   font-size: 1.5em;
   background-color: #fd6767;
   color:#fff;
 }
+
 table tbody th {
   text-align: left;
   font-size: 1.5em;
 }
+
 .txt{
    text-align: left;
    font-size: 1.5em;
 }
+
 .price{
   text-align: right;
   color: #FF7043;
@@ -422,7 +445,6 @@ table tbody th {
   table tr:nth-child(even){
   background-color: #fff;
 }
-}
 
 /*
 ------------------------------------------------
@@ -435,18 +457,18 @@ Contact
 }
 
 .contact-form p {
-font-weight: bold;
-font-size: 2rem;
-line-height:30px;
+  font-weight: bold;
+  font-size: 2rem;
+  line-height:30px;
 }
 
 input {
-width: 80%;
-margin-top: 10px;
-margin-bottom:30px;
-padding: 16px;
-font-size: 1.5rem;
-border: 1px solid #C4C4C4;
+  width: 80%;
+  margin-top: 10px;
+  margin-bottom:30px;
+  padding: 16px;
+  font-size: 1.5rem;
+  border: 1px solid #C4C4C4;
 }
 
 textarea {
@@ -500,7 +522,6 @@ IMPORT
 ------------------------------------------------
 */
 
-
 .fixed-bg {
   background-attachment: fixed;
   background-size: cover;
@@ -511,35 +532,3 @@ IMPORT
 .bg01 {
   background-image: url(../image/about/about-bg.png);
 }
-
-
- 
-/* 
-  figure {
-    position: relative;
-    width: 100%;
-    height: 60%;
-    margin: 0!important;
-  }
-  .fixed-wrap {
-    clip: rect(0, auto, auto, 0);
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-  }
-  #fixed {
-    background-image: url('../image/about/about-bg.png');
-    position: fixed;
-    display: block;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    background-size: cover;
-    background-position: center center;
-    -webkit-transform: translateZ(0);
-            transform: translateZ(0);
-    will-change: transform;
-  }   */
